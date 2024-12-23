@@ -1,0 +1,64 @@
+.chapter-list-container .container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.chapter-list-container .title {
+  font-size: 1chapter-list-container 0.5em;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #333;
+  text-align: center;
+}
+
+.chapter-list-container .list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.chapter-list-container .list-item {
+  font-size: 1chapter-list-container 0.1em;
+  margin-bottom: 10px;
+  color: #444;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  padding: 5px;
+  position: relative;
+}
+
+.chapter-list-container .actions {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: none;
+  gap: 10px;
+}
+
+.chapter-list-container .action-icon {
+  cursor: pointer;
+  font-size: 1chapter-list-container 0.2em;
+  color: #6a00ff;
+}
+
+.chapter-list-container .action-icon:hover {
+  color: #9b00ff;
+}
+
+.chapter-list-container .add-button {
+  background-color: #6a00ff;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.chapter-list-container .add-button:hover {
+  background-color: #9b00ff;
+}

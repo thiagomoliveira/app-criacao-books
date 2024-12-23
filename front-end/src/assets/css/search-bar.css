@@ -1,0 +1,15 @@
+.search-bar {
+  width: 100%;
+  max-width: 650px; /* Largura máxima do input */
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 8px 8px 8px 37px; /* Espaço para o ícone dentro do input */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1em;
+  box-sizing: border-box;
+  background: url("../icons/search-icon.svg") no-repeat 10px center;
+  background-size: 20px 20px;
+}

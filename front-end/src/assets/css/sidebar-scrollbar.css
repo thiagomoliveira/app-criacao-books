@@ -1,0 +1,23 @@
+.sidebar-my-ebooks,
+.sidebar-chapters {
+  max-height: 100vh;
+}
+
+/* Estilizando a barra de rolagem */
+.sidebar-my-ebooks::-webkit-scrollbar,
+.sidebar-chapters::-webkit-scrollbar {
+  width: 12px;
+}
+
+.sidebar-my-ebooks::-webkit-scrollbar-thumb,
+.sidebar-chapters::-webkit-scrollbar-thumb {
+  background-color: #f8f0f6;
+  border-radius: 5px;
+  border: 2px solid #f8f9fa;
+}
+
+.sidebar-my-ebooks::-webkit-scrollbar-track,
+.sidebar-chapters::-webkit-scrollbar-track {
+  background-color: #e0e0e0;
+  border-radius: 10px;
+}

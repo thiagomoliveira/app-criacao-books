@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap");
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.title {
+  font-weight: 900;
+  color: #6a0dad;
+  font-size: 1.8em;
+}
+
+.subtitle {
+  font-size: 1.2em;
+  color: #333;
+  margin: 20px 0 20px 0;
+  font-weight: 600;
+}
+
+.text-link {
+  color: #6a00ff;
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.text-link:hover {
+  text-decoration: underline;
+}
+
+.new-ebook-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.chapter-list-container {
+  display: none;
+}
+
+.new-ebook-form-container {
+  display: none;
+}

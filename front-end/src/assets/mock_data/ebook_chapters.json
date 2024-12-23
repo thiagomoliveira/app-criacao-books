@@ -1,0 +1,84 @@
+{
+  "book": {
+    "title": "Django Python: Guia Completo",
+    "chapters": [
+      {
+        "chapter_number": 1,
+        "title": "Introdução ao Django",
+        "subchapters": [
+          { "number": 1, "title": "O que é Django?" },
+          { "number": 2, "title": "História do Django" },
+          { "number": 3, "title": "Configuração do Ambiente" }
+        ]
+      },
+      {
+        "chapter_number": 2,
+        "title": "Conceitos Básicos",
+        "subchapters": [
+          { "number": 1, "title": "O que é um Projeto Django?" },
+          { "number": 2, "title": "Apps no Django" },
+          { "number": 3, "title": "Estrutura de Diretórios" },
+          { "number": 4, "title": "Configurações do Projeto" }
+        ]
+      },
+      {
+        "chapter_number": 3,
+        "title": "Trabalhando com URLs e Views",
+        "subchapters": [
+          { "number": 1, "title": "Configurando URLs" },
+          { "number": 2, "title": "Criando Views" },
+          { "number": 3, "title": "View-Based Routing" }
+        ]
+      },
+      {
+        "chapter_number": 4,
+        "title": "Modelos e Banco de Dados",
+        "subchapters": [
+          { "number": 1, "title": "Definindo Modelos" },
+          { "number": 2, "title": "Migrations" },
+          { "number": 3, "title": "Interação com o Banco de Dados" },
+          { "number": 4, "title": "Django ORM" }
+        ]
+      },
+      {
+        "chapter_number": 5,
+        "title": "Trabalhando com Templates",
+        "subchapters": [
+          { "number": 1, "title": "O que são Templates?" },
+          { "number": 2, "title": "Sintaxe do Django Template Language" },
+          { "number": 3, "title": "Renderização de Dados no Template" },
+          { "number": 4, "title": "Filtros e Tags" }
+        ]
+      },
+      {
+        "chapter_number": 6,
+        "title": "Formulários no Django",
+        "subchapters": [
+          { "number": 1, "title": "Criando Formulários" },
+          { "number": 2, "title": "Validação de Dados" },
+          { "number": 3, "title": "Trabalhando com Dados Submetidos" },
+          { "number": 4, "title": "Formulários Model-Based" }
+        ]
+      },
+      {
+        "chapter_number": 7,
+        "title": "Autenticação e Autorização",
+        "subchapters": [
+          { "number": 1, "title": "Sistema de Usuários do Django" },
+          { "number": 2, "title": "Autenticação de Usuário" },
+          { "number": 3, "title": "Permissões e Grupos" }
+        ]
+      },
+      {
+        "chapter_number": 8,
+        "title": "Desenvolvimento Avançado",
+        "subchapters": [
+          { "number": 1, "title": "Middleware Personalizado" },
+          { "number": 2, "title": "Signals" },
+          { "number": 3, "title": "Testes Automatizados no Django" },
+          { "number": 4, "title": "Deploy de Aplicações Django" }
+        ]
+      }
+    ]
+  }
+}
